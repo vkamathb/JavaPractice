@@ -7,7 +7,7 @@ public class Tree {
 		root = null;
 	}
 	
-	void inOrder(Node node)
+	public void inOrder(Node node)
 	{
 		if (node == null) return;
 		
@@ -16,7 +16,7 @@ public class Tree {
 		inOrder(node.right);
 	}
 	
-	void preOrder(Node node)
+	public void preOrder(Node node)
 	{
 		if (node == null) return;
 		
@@ -25,7 +25,7 @@ public class Tree {
 		preOrder(node.right);
 	}
 	
-	void postOrder(Node node)
+	public void postOrder(Node node)
 	{
 		if (node == null) return;
 		postOrder(node.left);
