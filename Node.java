@@ -12,3 +12,4 @@ class Node {
 		left = right = null;
 	}
 }
+
